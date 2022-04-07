@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <header class="py-4 shadow-sm">
+        <div class="container  flex justify-between items-center ">
+            <a class="text-4xl" href="!#"><span class="text-primary">Ra</span>fi</a>
+            <div class="relative">
+                <input class=" text-sm outline-none border border-r-0 border-primary p-3 " type="text"
+                    placeholder="Search">
+
+                <button
+                    class="bg-primary absolute text-white hover:bg-transparent hover:text-primary hover:border hover:border-primary duration-300 outline:none border:none p-2 bottom-0 top-0">search</button>
+            </div>
+            <div class="flex items-center justify-center space-x-4">
+                <div>
+                    <a href="!#" class="relative text-gray-600 flex items-center flex-col">
+                        <div class="border-primary">
+                            <i class="fas fa-heart text-2xl"></i>
+                        </div>
+                        <div class="text-xs leading-3">Wish List</div>
+                        <span
+                            class="flex justify-center items-center absolute w-5 h-5 rounded-full bg-primary text-white text-xs -top-1 -right-0">2</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="!#" class="relative text-gray-600 flex items-center flex-col">
+                        <div class="border-primary">
+                            <i class="fas fa-shopping-bag text-2xl"></i>
+                        </div>
+                        <div class="text-xs leading-3">Shop</div>
+                        <span
+                            class="flex justify-center items-center absolute w-5 h-5 rounded-full bg-primary text-white text-xs -top-1 -right-2">2</span>
+                    </a>
+                </div>
+                <div>
+                    <div>
+                        <a href="!#" class="relative text-gray-600 flex items-center flex-col">
+                            <div class="border-primary">
+                                <i class="fas fa-user text-2xl"></i>
+                            </div>
+                            <div class="text-xs leading-3">Account</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <nav class="bg-gray-900">
+        <div class="container text-white">
+            <div class="flex justify-between ">
+                <div class="space-x-3 bg-primary h-full p-4 relative group">
+                    <span><i class="fas fa-bars"></i></span>
+                    <span>All Categories</span>
+                    <div
+                        class="absolute  text-primary bg-white shadow-lg -left-3 mt-4 divide-y divide-y-gray-100  w-full hidden group-hover:block">
+                        <div class="hover:bg-gray-100 p-3"><a href="!#"></a>Shop</div>
+                        <div class="hover:bg-gray-100 p-3"><a href="!#"></a>Shop</div>
+                        <div class="hover:bg-gray-100 p-3"><a href="!#"></a>Shop</div>
+                        <div class="hover:bg-gray-100 p-3"><a href="!#"></a>Shop</div>
+                    </div>
+                </div>
+                <div class="ml-6 text-sm justify-start py-4">
+                    <ul class="flex justify-center items-center space-x-6 ml-4 text-gray-200">
+                        <li><a href="index.html" class="hover:text-primary duration-400">Home</a></li>
+                        <li><a class="hover:text-primary duration-400" href="shop.html">Shop</a></li>
+                        <li><a class="hover:text-primary duration-400" href="!#">About Us </a></li>
+                        <li><a class="hover:text-primary duration-400" href="!#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="py-4 ml-0">
+                    <div>
+                        <span class="hover:border-b hover:border-b-primary"><a href="login.html">Login</a></span>/<span
+                            class="hover:border-b hover:border-b-primary"><a href="signup.html">Sign up</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- breadcomb -->
+    <div class="container">
+        <div class="flex items-baseline mt-4 gap-2 text-sm">
+            <a href="index.html"><i class="fas fa-home text-primary"></i></a>
+            <span><i class="fas fa-chevron-right text-gray-400"></i></span>
+            <a class="text-gray-400 font-semibold" href="shop.html">Shop</a>
+        </div>
+    </div>
+    <div class="container max-w-sm mx-auto py-6 flex justify-center items-center flex-col shadow-sm">
+        <form action="" class=" border border-gray-500 p-6">
+
+            <div class="space-y-2 ">
+                <h2 class="text-4xl font-semibold text-gray-600">Sing Up</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, provident?</p>
+           
+            <div class="flex flex-col gap-5 py-6">
+                <div>
+                    <label class="block text-gray-700 font-semibold" for="name">First Name *</label>
+                    <input class="block border w-full border-gray-400 p-2 outline-none" type="text" name="" id=""
+                        placeholder="First Name" required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-semibold" for="name">Last Name *</label>
+                    <input class="block border w-full border-gray-400 p-2 outline-none" type="text" name="" id=""
+                        placeholder="Last Name" required>
+                </div>
+
+              
+                    <div>
+                        <label class="block text-gray-700 font-semibold" for="email">Email Address *</label>
+                        <input class="block border w-full  border-gray-400 p-2 outline-none" type="email" name="" id=""
+                            placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-semibold" for="email">Password *</label>
+                        <input class="block border w-full border-gray-400 p-2 outline-none" type="password" name=""
+                            id="" placeholder="password" required>
+                    </div>
+                
+                <div class="flex justify-between text-sm">
+                    <div class='flex items-baseline'><input type="checkbox" name="" id="">
+                        <span class=" px-2 text-gray-500 ">Remember Me</span>
+                    </div>
+
+                    <a class="text-primary" href="!#">Forgot Password?
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit"
+                        class=" bg-primary w-full py-2 text-md font-semibold hover:bg-transparent hover:text-primary border hover:border-primary text-white">Login</button>
+                </div>
+                </div>
+            </div>
+
+            <!-- login with others -->
+
+            <!-- login with others -->
+        </form>
+    </div>
+</body>
+
+</html>
